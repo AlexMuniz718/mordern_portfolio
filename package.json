@@ -4,11 +4,15 @@
   "description": "responsive_portfolio_website",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "author": "Alex Muniz",
   "license": "MIT",
   "dependencies": {
-    "node-sass": "^4.11.0"
-  }
+    "node-sass": "^4.11.0",
+    "snyk": "^1.224.0"
+  },
+  "snyk": true
 }
