@@ -11,8 +11,8 @@
   "author": "Alex Muniz",
   "license": "MIT",
   "dependencies": {
-    "node-sass": "^4.11.0",
-    "snyk": "^1.230.5"
+    "node-sass": "^7.0.1",
+    "snyk": "^1.465.0"
   },
   "snyk": true
 }
