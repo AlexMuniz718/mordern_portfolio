@@ -5,14 +5,14 @@
   "main": "index.js",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
-    "snyk-protect": "snyk protect",
+    "snyk-protect": "snyk-protect",
     "prepare": "npm run snyk-protect"
   },
   "author": "Alex Muniz",
   "license": "MIT",
   "dependencies": {
-    "node-sass": "^4.11.0",
-    "snyk": "^1.230.5"
+    "node-sass": "^7.0.0",
+    "@snyk/protect": "latest"
   },
   "snyk": true
 }
